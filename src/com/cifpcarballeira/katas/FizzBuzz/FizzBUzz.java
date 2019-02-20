@@ -11,16 +11,20 @@ package com.cifpcarballeira.katas.FizzBuzz;
  */
 public class FizzBUzz {
   public String  getFizzBuzz(int i){
+      
+      String s=i+"";
+      
       if (i%3==0) {
           if (i%5==0) {
          return "FizzBuzz"; 
       }
-          else
-         return "Fizz"; 
+      if(s.contains("3")){return "Fizz";}
+              else{
+         return "Fizz"; }
+          
       }
       else  if (i%5==0) {
          return "Buzz"; 
-         
       }
       else{
          return i+"";
