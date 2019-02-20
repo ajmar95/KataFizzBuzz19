@@ -11,7 +11,12 @@ package com.cifpcarballeira.katas.FizzBuzz;
  */
 public class FizzBUzz {
   public String  getFizzBuzz(int i){
-  return i+"";
+      if (i%3==0) {
+         return "Fizz"; 
+      }
+      else{
+      return i+"";}
+  
   }
     
 }
