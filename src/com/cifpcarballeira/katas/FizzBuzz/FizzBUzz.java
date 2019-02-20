@@ -18,7 +18,6 @@ public class FizzBUzz {
           if (i%5==0) {
          return "FizzBuzz"; 
       }
-      if(s.contains("3")){return "Fizz";}
               else{
          return "Fizz"; }
           
@@ -26,6 +25,8 @@ public class FizzBUzz {
       else  if (i%5==0) {
          return "Buzz"; 
       }
+      else if(s.contains("3")){return "Fizz";}
+      else if(s.contains("5")){return "Buzz";}
       else{
          return i+"";
       }
